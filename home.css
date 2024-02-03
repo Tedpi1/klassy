@@ -7,13 +7,14 @@ body{
 .controw{
     display: flex;
     flex-direction: row;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .klassy{
+    position: relative;
     background-color:#CC6666;
-    padding-bottom: 207px;
+    padding-bottom: 190px;
     padding-top: 207px;
-    margin-right: 1210px;
+    padding-right: 105px;
     margin-left: 10px;
     margin-top: 0px;
     align-items: center;
@@ -23,25 +24,31 @@ body{
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
-    margin-left: 90px;
+    margin-left: 60px;
+    margin-bottom: 0px;
+    position: absolute;
 }
 .klassy h2{
-    margin-left: 90px;
+    margin-top: 60px;
+    margin-left: 60px;
     line-height: 0%;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .button{
     margin-left: 100px;
-    padding-top: 10px;
+    padding-top: 100px;
 }
 .lovely{
-position: absolute;
-margin-left: 363px;
+    width: 200px;
+    margin-right: 20px;
+
 }
 .lovely img{
-    width: 200%;
-
+    margin-right: 300px;
+    margin-left: px;
+    position: absolute;
+    padding-bottom: 10px;
 }
 .about{
     margin-top: 50px;
@@ -112,17 +119,20 @@ margin-left: 363px;
     flex-direction: column;
 }
 .Menu h1{
+    position: absolute;
     margin-left: 100px;
   color: #CC6666;
   font-size: large;
 }
 .Menu h2{
+    color: black;
     margin-left: 100px;
 }
 .cont{
     display: flex;
 }
 .image-container{
+  margin-top: 150px;
   position: relative;
   margin-left: 20px;
   margin-bottom: 20px;
@@ -155,6 +165,7 @@ img{
     color: #CC6666;
     text-align: center;
 }
+
 .Chefs{
     margin-top: 100px;
     margin-left: 570px;
@@ -166,11 +177,11 @@ img{
     margin-left: 150px;
 }
 .Chefs h2{
-    
+    color: black;
     margin-left: 150px;
 }
 .chefs-pic{
-    
+    margin-top: 150px;
     display: flex;
     flex-direction: row;
     }
@@ -238,7 +249,12 @@ img{
     width: 94%;
     height: 80%;
 }
+.conta{
+    
+}
 .contact{
+    display: flex;
+    flex-direction: row;
     position:absolute;
     height: 60%;
     width: 100%;
@@ -250,4 +266,28 @@ img{
     height: 100%;
     width: 100%;
     opacity: 10%;
+}
+.contact h1, h2{
+    padding-top: 0%;
+    margin-top: 40px;
+    position: absolute;
+    color: #CC6666;
+    color: white;
+    margin-left: 00px;
+}
+.contact h2{
+    color: white;
+    margin-top: 90px;
+}
+.icons{
+    position: absolute;
+    margin-top: 170px;
+}
+.dial{
+    position: absolute;
+    background-color: white;
+}
+.icons .dial {
+    color: #CC6666;
+    border: 3px solid black;
 }
